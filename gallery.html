@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/7021d3e2a4.js" crossorigin="anonymous"></script>
+    <!-- Font -->
+    <link rel="stylesheet" href="https://use.typekit.net/unv7zjv.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gallery</title>
+
+</head>
+
+<body>
+
+    <header>
+
+            <nav class="navbar navbar-toggleable-md navbar-light border-bottom fixed-top" id="commRollover">
+                    <a class="navbar-brand" href="index.html"><img src="images/white-logo.png" alt="Logo" style="height: 2.5em;"></a>
+                    <div class="row mr-auto">
+                      <p class="font-weight-bold navText text-white col">May 15 - 17</p>
+                      <div class="w-100"></div>
+                      <p class="font-weight-bold navText text-white col">Copenhagen, Norrebro</p>
+                    </div>
+                    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="icon-bar top-bar bg-white"></span>
+                      <span class="icon-bar middle-bar bg-white"></span>
+                      <span class="icon-bar bottom-bar bg-white"></span>
+                    </button>
+                    
+                    <div class="collapse navbar-collapse bg-white" id="navbarNav">
+                        <ul class="container navbar-nav font-weight-bold">
+                            <li class="nav-item ml-auto">
+                                <a class="nav-link active text-primary" href="#">Program<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item ml-auto">
+                                <a class="nav-link text-primary" href="#">Join us</a>
+                            </li>
+                            <li class="nav-item ml-auto">
+                                <a class="nav-link text-primary" href="#">Gallery</a>
+                            </li>
+                            <li class="nav-item ml-auto">
+                                <a class="nav-link text-primary" href="#">About us</a>
+                            </li>
+                            <li class="nav-item ml-auto">
+                                <a class="nav-link text-primary" href="#">Contact</a>
+                            </li>
+
+                            <li class="nav-item ml-auto">
+                              <a href=""><i class="fab fa-facebook-square text-primary ml-auto"></i></a>
+                              <a href=""><i class="fab fa-instagram text-primary ml-auto"></i></a>
+                              <a href=""><i class="fab fa-youtube text-primary ml-auto"></i></a>
+                      </li>
+
+                      <li class="nav-item ml-auto">
+                          <a class="nav-link text-primary" href="#"></a>
+                      </li>
+
+                      <li class="cheat nav-item ml-auto ">
+                              <a class="nav-link display-1 opacity" href="#">blablas</a>
+                      </li>
+
+                      <li class="cheat nav-item ml-auto ">
+                              <a class="nav-link display-1 opacity" href="#">blablas</a>
+                      </li>
+
+                      <li class="cheat nav-item ml-auto ">
+                              <a class="nav-link display-1 opacity" href="#">blablas</a>
+                      </li>
+
+                      <li class="cheat nav-item ml-auto ">
+                              <a class="nav-link display-1 opacity" href="#">blablas</a>
+                      </li>
+                        </ul>
+                    </div>
+                </nav>
+        
+    </header>
+
+    <!-- gallery -->
+    <section class="container mt-5 pt-5 programs">
+        <h1 class="font-weight-bold mb-4">Gallery</h1>
+
+        <select class="custom-select bg-dark text-white mb-5" id="inputGroupSelect01">
+            <option class="bg-white text-primary" value="1">2017</option>
+            <option class="bg-white text-primary" value="2">2018</option>
+            <option class="bg-white text-primary" value="3" selected>2019</option>
+            <option class="bg-white text-primary" value="4">2020</option>
+        </select>
+
+        <div class="row">
+        <div class="col-sm-6">
+            <div id="picture-1" class="jumbotron mb-3"></div>
+
+            <div id="picture-2" class="jumbotron mb-3"></div>
+
+            <div id="picture-3" class="jumbotron mb-3"></div>
+        </div>
+        <div class="col-sm-6">
+            <div id="picture-4" class="jumbotron mb-3"></div>
+
+            <div id="picture-5" class="jumbotron mb-3"></div>
+
+            <div id="picture-6" class="jumbotron mb-3"></div>
+        </div>
+    </div>
+
+    </section>
+
+    
+
+    <!--Carousel Wrapper-->
+    <div class="container my-4">
+            <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+
+              <!--Slides-->
+              <div class="carousel-inner" role="listbox">
+        
+                <!--First slide-->
+                <div class="carousel-item active">
+        
+                  <div class="row d-flex justify-content-center">
+                    <div class="col-md-4 d-flex justify-content-center">
+                      <img class="sponsor-1" src="images/sponsor-1.png" alt="Tuborg sponsor">
+                    </div>
+                      
+        
+                    <div class="sponsor-2 col-md-4 clearfix d-none d-md-flex justify-content-center">
+                      <img class="sponsor-1" src="images/sponsor-1.png" alt="Tuborg sponsor">
+                    </div>
+    
+                    <div class="w-100 d-flex justify-content-center"></div>
+        
+                    <div class="sponsor-3 col-md-4 clearfix d-none d-md-flex justify-content-center">
+                      <img class="sponsor-1" src="images/sponsor-1.png" alt="Tuborg sponsor">
+                    </div>
+                    <div class="sponsor-4 col-md-4 clearfix d-none d-md-flex justify-content-center">
+                      <img class="sponsor-1" src="images/sponsor-1.png" alt="Tuborg sponsor">
+                    </div>
+                  </div>
+        
+                </div>
+        
+                <!--Second slide-->
+                <div class="carousel-item">
+        
+                    <div class="row d-flex justify-content-center">
+                      <div class="col-md-4 d-flex justify-content-center">
+                        <img class="sponsor-1" src="images/sponsor-1.png" alt="Tuborg sponsor">
+                      </div>
+                        
+          
+                      <div class="sponsor-2 col-md-4 clearfix d-none d-md-flex justify-content-center">
+                        <img class="sponsor-1" src="images/sponsor-1.png" alt="Tuborg sponsor">
+                      </div>
+      
+                      <div class="w-100 d-flex justify-content-center"></div>
+          
+                      <div class="sponsor-3 col-md-4 clearfix d-none d-md-flex justify-content-center">
+                        <img class="sponsor-1" src="images/sponsor-1.png" alt="Tuborg sponsor">
+                      </div>
+                      <div class="sponsor-4 col-md-4 clearfix d-none d-md-flex justify-content-center">
+                        <img class="sponsor-1" src="images/sponsor-1.png" alt="Tuborg sponsor">
+                      </div>
+                    </div>
+          
+                  </div>
+        
+                <!--Third slide-->
+                <div class="carousel-item">
+        
+                    <div class="row d-flex justify-content-center">
+                      <div class="col-md-4 d-flex justify-content-center">
+                        <img class="sponsor-1" src="images/sponsor-1.png" alt="Tuborg sponsor">
+                      </div>
+                        
+          
+                      <div class="sponsor-2 col-md-4 clearfix d-none d-md-flex justify-content-center">
+                        <img class="sponsor-1" src="images/sponsor-1.png" alt="Tuborg sponsor">
+                      </div>
+      
+                      <div class="w-100 d-flex justify-content-center"></div>
+          
+                      <div class="sponsor-3 col-md-4 clearfix d-none d-md-flex justify-content-center">
+                        <img class="sponsor-1" src="images/sponsor-1.png" alt="Tuborg sponsor">
+                      </div>
+                      <div class="sponsor-4 col-md-4 clearfix d-none d-md-flex justify-content-center">
+                        <img class="sponsor-1" src="images/sponsor-1.png" alt="Tuborg sponsor">
+                      </div>
+                    </div>
+          
+                  </div>
+              
+              <!--Control btns-->
+              <a class="carousel-control-prev" href="#multi-item-example" role="button" data-slide="prev">
+                  <i class="fas fa-chevron-left fa-2x text-dark"></i>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#multi-item-example" role="button" data-slide="next">
+                  <i class="fas fa-chevron-right fa-2x text-dark"></i>
+                  <span class="sr-only">Next</span>
+                </a>
+            </div>
+          </div>
+        </div>
+        
+        
+    
+        <!-- Footer -->
+        <footer class="bg-dark py-4">
+            <div class="container">
+              <div class="row">
+                <a href="" class="col text-white">Press</a>
+                <div class="col">
+                    <a href=""><i class="fab fa-facebook-square text-white"></i></a>
+                    <a href=""><i class="fab fa-instagram text-white"></i></a>
+                    <a href=""><i class="fab fa-youtube text-white"></i></a>
+                </div>
+                <a href="" class="w-100"></a>
+                <a href="" class="col text-white">Join us</a>
+                <a href="" class="col text-white">Newsletter</a>
+              </div>
+            </div>
+        </footer>
+    
+    <script src="main.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+</body>
+</html>
