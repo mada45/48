@@ -1,0 +1,179 @@
+$dark: #a94848;
+$light: #d66161;
+$primary: #3d3d3d;
+
+$font-family-base: 'itc-avant-garde-gothic-pro', sans-serif;
+
+// Navbar
+.icon-bar {
+	width: 2em; 
+	height: 3px;
+	display: block;
+	transition: all 0.2s;
+  margin-top: 4px;
+  border-radius: 10px;
+}
+
+nav .col {
+    padding-right: 0 !important;
+}
+
+.nav-scroll {
+    background-color: white !important;
+}
+
+
+
+.collapse {
+  border: none !important;
+}
+
+.cheat{
+  opacity: 0;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: rgba(0, 0, 0 ,0) !important;
+
+}
+
+
+.navbar-toggler .top-bar {
+    transform: rotate(45deg);
+    transform-origin: 20% 20%;
+  }
+  
+  .navbar-toggler .middle-bar {
+    opacity: 0;
+  }
+  
+  .navbar-toggler .bottom-bar {
+    transform: rotate(-45deg);
+    transform-origin: 30% 70%;
+  }
+  
+  .navbar-toggler.collapsed .top-bar {
+    transform: rotate(0);
+  }
+  
+  .navbar-toggler.collapsed .middle-bar {
+    opacity: 1;
+  }
+  
+  .navbar-toggler.collapsed .bottom-bar {
+    transform: rotate(0);
+  }
+
+  .active{
+    color: #a94848 !important;
+  }
+
+  .navbar-nav{
+    font-size: 1.5em;
+  }
+
+  .nav-item .text-primary:hover{
+    color: #a94848 !important;
+  }
+
+  nav p{
+    margin-bottom: 0 !important;
+    font-size: 0.65em;
+  }
+
+  //Footer
+  footer a{
+    text-decoration: none;
+  }
+
+  footer a:hover{
+    text-decoration: underline;
+    color: white;
+  }
+
+  //Timer
+
+  .timer .col{
+    border-right: 1px solid #a94848;
+  }
+
+  .days-container{
+    border-left: 1px solid #a94848;
+  }
+  .timer-items{
+    font-size: 2.5em;
+  }
+
+  .timer .d-flex .fa-xs{
+    font-size: 0.2em;
+  }
+
+  //Carousel
+  .col-md-3{
+    display: inline-block;
+    margin-left:-4px;
+  }
+  .col-md-3 img{
+    width:100%;
+    height:auto;
+  }
+  .carousel-control-next, .carousel-control-prev{
+    color: black;
+  }
+  body .no-padding{
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+.sponsor-1{
+  width: 8em;
+}
+
+.background {   
+  padding: 0 !important;
+  margin: 0 auto !important;
+  background-size: cover;
+  overflow: hidden;
+  height: 40vh;
+}
+
+/*Main Image - Main Page*/
+.jumbotron{
+    background: url(images/48timerbg.png);
+    background-size: cover;
+    background-position:center;
+    position: relative;
+    height: 30rem;
+}
+
+ .container .program {
+    background: url(images/programbg.png);
+    background-size: cover;
+    background-position: 100% 20%;
+    height: 6rem;
+}
+
+.container .volunteer {
+    background: url(images/volunteerbg.png);
+    background-size: cover;
+    background-position:100% 20%;
+    height: 6rem;
+}
+
+.container .actor {
+    background: url(images/actorbg.png);
+    background-size: cover;
+    background-position: 100% 10%;
+    height: 6rem;
+}
+
+
+
+
+@import "bootstrap-4.3.1/scss/bootstrap.scss";
+@import "bootstrap-4.3.1/scss/mixins/_breakpoints.scss";
+@import "bootstrap-4.3.1/scss/_variables.scss";
+@import "bootstrap-4.3.1/scss/_functions.scss";
+
+
+
