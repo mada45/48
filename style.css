@@ -134,7 +134,7 @@ body .no-padding {
 }
 
 /*Main Image - Main Page*/
-.jumbotron {
+.background-main .jumbotron {
   background: url(images/48timerbg.png);
   background-size: cover;
   background-position: center;
@@ -160,6 +160,14 @@ body .no-padding {
   background-size: cover;
   background-position: 100% 10%;
   height: 6rem;
+}
+
+.container .becomea {
+  height: 10rem;
+}
+
+.container .application {
+  height: 2rem;
 }
 
 #program-1 {

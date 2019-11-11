@@ -138,7 +138,7 @@ nav .col {
 }
 
 /*Main Image - Main Page*/
-.jumbotron{
+.background-main .jumbotron{
     background: url(images/48timerbg.png);
     background-size: cover;
     background-position:center;
@@ -166,6 +166,15 @@ nav .col {
     height: 6rem;
 }
 
+
+//////////////////    JOIN US
+.container .becomea{
+  height: 10rem;
+}
+
+.container .application{
+  height: 2rem;
+}
 
 //////////////////    PROGRAM
 

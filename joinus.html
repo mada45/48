@@ -23,18 +23,17 @@
 
     <header>
 
-            <nav class="navbar navbar-toggleable-md navbar-light fixed-top" id="commRollover">
-                    <a class="navbar-brand" href="index.html"><img src="images/white-logo.png" data-swap='images/red-logo.png' 
-                      data-src='images/white-logo.png' alt="Logo" style="height: 2.5em;"></a>
+            <nav class="navbar navbar-toggleable-md navbar-light bg-white fixed-top" id="commRollover">
+                    <a class="navbar-brand" href="index.html"><img src="images/red-logo.png" alt="Logo" style="height: 2.5em;"></a>
                     <div class="row mr-auto">
-                      <p class="font-weight-bold navText text-white col">May 15 - 17</p>
+                      <p class="font-weight-bold navText text-dark col">May 15 - 17</p>
                       <div class="w-100"></div>
-                      <p class="font-weight-bold navText text-white col">Copenhagen, Norrebro</p>
+                      <p class="font-weight-bold navText text-dark col">Copenhagen, Norrebro</p>
                     </div>
                     <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="icon-bar top-bar bg-white"></span>
-                      <span class="icon-bar middle-bar bg-white"></span>
-                      <span class="icon-bar bottom-bar bg-white"></span>
+                      <span class="icon-bar top-bar bg-dark"></span>
+                      <span class="icon-bar middle-bar bg-dark"></span>
+                      <span class="icon-bar bottom-bar bg-dark"></span>
                     </button>
                     
                     <div class="collapse navbar-collapse bg-white" id="navbarNav">
@@ -42,17 +41,17 @@
                             <li class="nav-item ml-auto">
                                 <a class="nav-link active text-primary" href="#">Program<span class="sr-only">(current)</span></a>
                             </li>
-                            <li class="nav-item ml-auto text-primary">
-                                <a class="nav-link" href="#">Join us</a>
+                            <li class="nav-item ml-auto ">
+                                <a class="nav-link text-primary" href="joinus.html">Join us</a>
                             </li>
-                            <li class="nav-item ml-auto text-primary">
-                                <a class="nav-link" href="#">Gallery</a>
+                            <li class="nav-item ml-auto ">
+                                <a class="nav-link text-primary" href="#">Gallery</a>
                             </li>
-                            <li class="nav-item ml-auto text-primary">
-                                <a class="nav-link" href="#">About us</a>
+                            <li class="nav-item ml-auto">
+                                <a class="nav-link text-primary" href="#">About us</a>
                             </li>
-                            <li class="nav-item ml-auto text-primary">
-                                <a class="nav-link" href="#">Contact</a>
+                            <li class="nav-item ml-auto">
+                                <a class="nav-link text-primary" href="#">Contact</a>
                             </li>
 
                             <li class=" nav-item ml-auto">
@@ -86,68 +85,35 @@
         
     </header>
 
-    <!-- Background image -->
-    <div class="background-main">
-            <!--Main Image with Text-->
-        <div class="jumbotron rounded-0 py-5 d-flex justify-content-center align-items-center">
-            <h3 class="text-white font-weight-bold">HELE NØRREBRO KULTURFESTIVAL</h3>
-        </div> 
-    </div>
 
     <!-- Jumbotron -->
-    <section class="container">
-            <div class="program jumbotron rounded-0 d-flex justify-content-between mb-3">
-                    <h3 class="text-white font-weight-bold">Program</h3>
-                    <i class="fas fa-chevron-right fa-2x text-white"></i>
+    <section class="container joinus my-5 pt-5">
+
+        <h1 class="mb-4 font-weight-bold text-primary">Become a ...</h1>
+
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="volunteer jumbotron rounded-0 becomea">
+                    <div class="d-flex justify-content-between mb-3">
+                        <h3 class="text-white font-weight-bold">Volunteer</h3>
+                        <a href="volunteer.html"><i class="fas fa-chevron-right fa-2x text-white"></i></a>
+                    </div>
+                    <p class="text-white">Simple description of how to become a volunteer madafaka </p>
+                </div>
             </div>
 
-            <div class="volunteer jumbotron rounded-0 d-flex justify-content-between mb-3">
-                    <h3 class="text-white font-weight-bold">Volunteer</h3>
-                    <i class="fas fa-chevron-right fa-2x text-white"></i>
+            <div class="col-sm-6">
+                <div class="actor jumbotron rounded-0 becomea">
+                        <div class="d-flex justify-content-between mb-3">
+                            <h3 class="text-white font-weight-bold">Actor</h3>
+                            <a href="actor.html"><i class="fas fa-chevron-right fa-2x text-white"></i></a>
+                        </div>
+                        <p class="text-white">Simple description of how to become an actor madafaka </p>
             </div>
-
-            <div class="actor jumbotron rounded-0 d-flex justify-content-between mb-3">
-                    <h3 class="text-white font-weight-bold">Actor</h3>
-                    <i class="fas fa-chevron-right fa-2x text-white"></i>
-            </div>
+            
+        </div>
     </section>
 
-    <!-- Timer -->
-
-      <div class="container my-5">
-
-        <div class="timer d-flex justify-content-center">
-          <div class="col w-25 days-container">
-            <div class="timer-items d-flex justify-content-center">
-              <div class="d-flex justify-content-center d-md-display-2" id="days"></div>
-            </div>
-            <p class="display-5 d-flex justify-content-center mb-0">days</p>
-          </div>
-
-          <div class="col w-25 hours-container">
-            <div class="timer-items d-flex justify-content-center">
-              <div class="d-flex justify-content-center d-md-display-2" id="hours"></div>
-            </div>
-            <p class="display-5 d-flex justify-content-center mb-0">hours</p>
-          </div>
-
-          <div class="col w-25 minutes-container">
-            <div class="timer-items d-flex justify-content-center">
-              <div class="d-flex justify-content-center d-md-display-2" id="minutes"></div>
-            </div>
-            <p class="display-5 d-flex justify-content-center mb-0">minutes</p>
-          </div>
-          <div class="d-flex flex-column align-items-center">
-        </div>
-
-          <div class="col w-25 seconds-container">
-            <div class="timer-items d-flex justify-content-center">
-                <div class="d-flex justify-content-center d-md-display-2" id="seconds"></div>
-              </div>
-            <p class="display-5 d-flex justify-content-center mb-0">seconds</p>
-          </div>
-        </div>
-      </div>
 
     <!--Carousel Wrapper-->
     <div class="container my-4">
