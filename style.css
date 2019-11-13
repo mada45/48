@@ -16,8 +16,14 @@ nav .col {
   padding-right: 0 !important;
 }
 
-.nav-scroll {
+.nav-bg-scroll-on {
   background-color: white !important;
+}
+
+.nav-bg-scroll-off {
+  background: transparent;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
 }
 
 .collapse {

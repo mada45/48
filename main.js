@@ -32,10 +32,11 @@ var x = setInterval(function() {
 //SCROLL changing navbar
 $(function () {
   $(document).scroll(function () {
-    var $nav = $(".navbar");
+    var $nav = $(".nav-bg-change");
     var $navText = $(".navText");
-    var $navBurger = $("nav button span");
-    $nav.toggleClass('nav-scroll', $(this).scrollTop() > 405);
+    var $navBurger = $(".nav-span-change");
+    $nav.toggleClass('nav-bg-scroll-on', $(this).scrollTop() > 405);
+    $nav.toggleClass('nav-bg-scroll-off', $(this).scrollTop() < 405);
     $navText.toggleClass('text-dark', $(this).scrollTop() > 405);
     $navBurger.toggleClass('bg-dark', $(this).scrollTop() > 405);
     $navBurger.toggleClass('bg-white', $(this).scrollTop() < 405);
@@ -47,19 +48,20 @@ $(function () {
 $(function () { 
   $(window).scroll(function () {
       if ($(this).scrollTop() > 405) { 
-          $('.navbar .navbar-brand img').attr('src','images/red-logo.png');
+          $('.nav-bg-change .navbar-brand img').attr('src','images/red-logo.png');
       }
       if ($(this).scrollTop() < 405) { 
-          $('.navbar .navbar-brand img').attr('src','images/white-logo.png');
+          $('.nav-bg-change .navbar-brand img').attr('src','images/white-logo.png');
       }
   })
 });
 
 $(".navbar-toggler").click(function(){
-  $(".navbar").toggleClass("nav-scroll");
+  $(".navbar").toggleClass("nav-bg-scroll-on");
+  $(".navbar").toggleClass("nav-bg-scroll-off");
   $(".navText").toggleClass("text-dark");
-  $("nav button span").toggleClass("bg-dark");
-  $("nav button span").toggleClass("bg-white");
+  $(".nav-span-change").toggleClass("bg-dark");
+  $(".nav-span-change").toggleClass("bg-white");
 });
 
 $(".navbar-toggler").click(function() { 
