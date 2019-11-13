@@ -85,23 +85,46 @@
         
     </header>
 
-    <!-- programs -->
+    <!-- container -->
     <section class="container mt-5 pt-5 programs">
         <h1 class="font-weight-bold mb-4">Programs</h1>
 
         <!-- searc-bar -->
         <form class="form-inline d-flex justify-content-between mb-2">
-            <input class="form-control w-75" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+            <input class="form-control w-75 d-md-none" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-dark my-2 my-sm-0 d-md-none" type="submit"><i class="fas fa-search"></i></button>
         </form>
 
-        <select class="custom-select bg-dark text-white mb-5" id="inputGroupSelect01">
+        <form class="w-50 d-md-flex d-sm-none justify-content-between form-inline mb-4">
+          <input class="form-control w-75 d-sm-none d-md-block" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-dark d-sm-none d-md-block  mr-3" type="submit">Search <i class="fas fa-search"></i></button>
+        </form>
+
+        <!-- Selector for mobile -->
+        <select class="d-md-none d-sm-block custom-select bg-dark text-white mb-5" id="inputGroupSelect01">
             <option class="bg-white text-primary" selected>All days</option>
             <option class="bg-white text-primary" value="1">Friday</option>
             <option class="bg-white text-primary" value="2">Saturday</option>
             <option class="bg-white text-primary" value="3">Sunday</option>
         </select>
 
+         <!-- Buttons for desktop -->
+         <div class="container mb-2">
+          <div class="menu-btns row">
+            <div class="col-6 d-md-flex justify-content-between d-sm-none">
+              <button type="button" class="btn btn-dark">2017</button>
+              <button type="button" class="btn btn-dark mr-3">2018</button>
+            </div>
+
+            <div class="col-6 d-md-flex justify-content-between d-sm-none">
+              <button type="button" class="btn btn-dark ml-3">2019</button>
+              <button type="button" class="btn btn-dark">2020</button>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Programs -->
         <div class="row">
         <div class="col-sm-6">
             <div id="program-1" class="jumbotron mb-3">

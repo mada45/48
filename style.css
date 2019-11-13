@@ -1,3 +1,7 @@
+body {
+  font-size: 0.8rem !important;
+}
+
 .icon-bar {
   width: 2em;
   height: 3px;
@@ -74,7 +78,7 @@ nav .col {
 
 nav p {
   margin-bottom: 0 !important;
-  font-size: 0.65em;
+  font-size: 0.8em;
 }
 
 footer a {
@@ -10820,6 +10824,83 @@ a.text-dark:hover, a.text-dark:focus {
   .table .thead-dark th {
     color: inherit;
     border-color: #dee2e6;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: 1rem !important;
+  }
+  h3 {
+    font-size: 3em !important;
+  }
+  #picture-1 {
+    height: 20rem;
+  }
+  #picture-2 {
+    height: 20rem;
+  }
+  #picture-3 {
+    height: 20rem;
+  }
+  #picture-4 {
+    height: 20rem;
+  }
+  #picture-5 {
+    height: 20rem;
+  }
+  #picture-6 {
+    height: 20rem;
+  }
+  .menu-btns .col-6 {
+    padding: 0 !important;
+  }
+  #program-1 {
+    background: url(images/programbg.png);
+    background-size: cover;
+    background-position: 100% 10%;
+    height: 20rem;
+  }
+  #program-2 {
+    background: url(images/programbg.png);
+    background-size: cover;
+    background-position: 100% 10%;
+    height: 20rem;
+  }
+  #program-3 {
+    background: url(images/programbg.png);
+    background-size: cover;
+    background-position: 100% 10%;
+    height: 20rem;
+  }
+  #program-4 {
+    background: url(images/programbg.png);
+    background-size: cover;
+    background-position: 100% 10%;
+    height: 20rem;
+  }
+  #program-5 {
+    background: url(images/programbg.png);
+    background-size: cover;
+    background-position: 100% 10%;
+    height: 20rem;
+  }
+  #program-6 {
+    background: url(images/programbg.png);
+    background-size: cover;
+    background-position: 100% 10%;
+    height: 20rem;
+  }
+  .btn:hover {
+    -webkit-box-shadow: inset -100px 0 0 0 #fff !important;
+            box-shadow: inset -100px 0 0 0 #fff !important;
+    color: #a94848;
+  }
+  .btn {
+    -webkit-box-shadow: inset 0 0 0 0 #a94848 !important;
+            box-shadow: inset 0 0 0 0 #a94848 !important;
+    -webkit-transition: ease-out 0.4s !important;
+    transition: ease-out 0.4s !important;
   }
 }
 /*# sourceMappingURL=style.css.map */
