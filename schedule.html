@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+
+    <meta charset="UTF-8">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/7021d3e2a4.js" crossorigin="anonymous"></script>
+    <!-- Font -->
+    <link rel="stylesheet" href="https://use.typekit.net/unv7zjv.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tidsplan</title>
+
+</head>
+
+<body>
+
+    <header>
+        
+      <nav class="navbar shadows navbar-toggleable-md bg-white navbar-light fixed-top" id="commRollover">
+        <a class="navbar-brand ml-3 my-2" href="index.html"><img src="images/red-logo.png" alt="Logo" style="height: 2.5em;"></a>
+        <div class="row mr-auto mt-2">
+          <p class="font-weight-bold text-dark col">May 15-17</p>
+          <div class="w-100"></div>
+          <p class="font-weight-bold text-dark col">København, Nørrebro</p>
+        </div>
+
+        <div class="d-md-flex d-none justify-content-center align-items-center mt-2">
+            <a href="https://www.facebook.com/48TimerFestival/"><i class="fab fa-facebook-square fa-lg mr-2 text-dark ml-auto"></i></a>
+            <a href="https://www.instagram.com/48timerfestival/?hl=da&fbclid=IwAR2cug7MoxcFH4XyqlugGBRjC9Tlrw7fA888k913D1cG6Y6SFbONqRXF-EM"><i class="fab fa-instagram fa-lg mr-2 text-dark ml-auto"></i></a>
+            <a href="https://www.youtube.com/channel/UC_ozDAK7XgmRiloIEaZ25NA?fbclid=IwAR08Y7AInWqRenIH1boX9NrejNX0R43_4IXadhugP8rUMMWsTixNJBvHugY"><i class="fab fa-youtube fa-lg mr-4 text-dark ml-auto"></i></a>
+        </div>
+
+        <button class="navbar-toggler collapsed mr-2" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="icon-bar top-bar bg-dark"></span>
+          <span class="icon-bar middle-bar bg-dark"></span>
+          <span class="icon-bar bottom-bar bg-dark"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse bg-white" id="navbarNav">
+            <ul class="mr-4 navbar-nav font-weight-bold">
+              <li class="nav-item ml-auto">
+                <a class="nav-link active text-primary" href="program.html">Program<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item ml-auto">
+                <a class="nav-link text-primary" href="joinus.html">Kom med os</a>
+            </li>
+            <li class="nav-item ml-auto">
+                <a class="nav-link text-primary" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item ml-auto">
+                <a class="nav-link text-primary" href="about.html">Om os</a>
+            </li>
+            <li class="nav-item ml-auto">
+                <a class="nav-link text-primary" href="contact.html">Kontakt</a>
+            </li>
+
+                <li class="nav-item ml-auto d-md-none">
+                  <a href="https://www.facebook.com/48TimerFestival/"><i class="fab fa-facebook-square text-primary ml-auto"></i></a>
+                  <a href="https://www.instagram.com/48timerfestival/?hl=da&fbclid=IwAR2cug7MoxcFH4XyqlugGBRjC9Tlrw7fA888k913D1cG6Y6SFbONqRXF-EM"><i class="fab fa-instagram text-primary ml-auto"></i></a>
+                  <a href="https://www.youtube.com/channel/UC_ozDAK7XgmRiloIEaZ25NA?fbclid=IwAR08Y7AInWqRenIH1boX9NrejNX0R43_4IXadhugP8rUMMWsTixNJBvHugY"><i class="fab fa-youtube text-primary ml-auto"></i></a>
+          </li>
+
+          <li class="nav-item ml-auto">
+              <a class="nav-link text-primary" href="#"></a>
+          </li>
+
+          <li class="cheat nav-item ml-auto ">
+                  <a class="nav-link display-1 opacity" href="#">blablas</a>
+          </li>
+
+          <li class="cheat nav-item ml-auto ">
+                  <a class="nav-link display-1 opacity" href="#">blablas</a>
+          </li>
+
+          <li class="cheat nav-item ml-auto ">
+                  <a class="nav-link display-1 opacity" href="#">blablas</a>
+          </li>
+
+          <li class="cheat nav-item ml-auto ">
+                  <a class="nav-link display-1 opacity" href="#">blablas</a>
+          </li>
+            </ul>
+        </div>
+    </nav>
+        
+    </header>
+
+    <!-- container -->
+    <section class="container mt-5 pt-5">
+        <h1 class="font-weight-bold mt-md-5 mt-3 mb-4">Tidsplan</h1>
+
+        
+         <!-- Buttons for desktop -->
+         <div class="container mb-2 mb-md-3">
+          <div class="menu-btns row">
+            <div class="col-6 d-md-flex justify-content-start d-none">
+              <button type="button" class="btn mr-3 btn-dark">Tilbage til programmer</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="container timeline-font-size">
+<div class="cd-schedule loading">
+	<div class="timeline">
+		<ul class="pl-0">
+			<li><span>09:00</span></li>
+			<li><span>09:30</span></li>
+			<li><span>10:00</span></li>
+			<li><span>10:30</span></li>
+			<li><span>11:00</span></li>
+			<li><span>11:30</span></li>
+			<li><span>12:00</span></li>
+			<li><span>12:30</span></li>
+			<li><span>13:00</span></li>
+			<li><span>13:30</span></li>
+			<li><span>14:00</span></li>
+			<li><span>14:30</span></li>
+			<li><span>15:00</span></li>
+			<li><span>15:30</span></li>
+			<li><span>16:00</span></li>
+			<li><span>16:30</span></li>
+			<li><span>17:00</span></li>
+			<li><span>17:30</span></li>
+			<li><span>18:00</span></li>
+		</ul>
+	</div> <!-- .timeline -->
+
+	<div class="events">
+		<ul>
+			<li class="events-group">
+				<div class="top-info"><span>Monday</span></div>
+
+				<ul>
+					<li class="single-event" data-start="09:30" data-end="10:30" data-content="event-abs-circuit" data-event="event-1">
+						<a href="#0">
+							<em class="event-name">Abs Circuit</em>
+						</a>
+					</li>
+
+					<li class="single-event" data-start="11:00" data-end="12:30" data-content="event-rowing-workout" data-event="event-2">
+						<a href="#0">
+							<em class="event-name">Rowing Workout</em>
+						</a>
+					</li>
+
+					<li class="single-event" data-start="14:00" data-end="15:15"  data-content="event-yoga-1" data-event="event-3">
+						<a href="#0">
+							<em class="event-name">Yoga Level 1</em>
+						</a>
+					</li>
+				</ul>
+			</li>
+
+			<li class="events-group">
+				<div class="top-info"><span>Tuesday</span></div>
+
+				<ul>
+					<li class="single-event" data-start="10:00" data-end="11:00"  data-content="event-rowing-workout" data-event="event-2">
+						<a href="#0">
+							<em class="event-name">Rowing Workout</em>
+						</a>
+					</li>
+
+					<li class="single-event" data-start="11:30" data-end="13:00"  data-content="event-restorative-yoga" data-event="event-4">
+						<a href="#0">
+							<em class="event-name">Restorative Yoga</em>
+						</a>
+					</li>
+
+					<li class="single-event" data-start="13:30" data-end="15:00" data-content="event-abs-circuit" data-event="event-1">
+						<a href="#0">
+							<em class="event-name">Abs Circuit</em>
+						</a>
+					</li>
+
+					<li class="single-event" data-start="15:45" data-end="16:45"  data-content="event-yoga-1" data-event="event-3">
+						<a href="#0">
+							<em class="event-name">Yoga Level 1</em>
+						</a>
+					</li>
+				</ul>
+			</li>
+
+			<li class="events-group">
+				<div class="top-info"><span>Wednesday</span></div>
+
+				<ul>
+					<li class="single-event" data-start="09:00" data-end="10:15" data-content="event-restorative-yoga" data-event="event-4">
+						<a href="#0">
+							<em class="event-name">Restorative Yoga</em>
+						</a>
+					</li>
+
+					<li class="single-event" data-start="10:45" data-end="11:45" data-content="event-yoga-1" data-event="event-3">
+						<a href="#0">
+							<em class="event-name">Yoga Level 1</em>
+						</a>
+					</li>
+
+					<li class="single-event" data-start="12:00" data-end="13:45"  data-content="event-rowing-workout" data-event="event-2">
+						<a href="#0">
+							<em class="event-name">Rowing Workout</em>
+						</a>
+					</li>
+
+					<li class="single-event" data-start="13:45" data-end="15:00" data-content="event-yoga-1" data-event="event-3">
+						<a href="#0">
+							<em class="event-name">Yoga Level 1</em>
+						</a>
+					</li>
+				</ul>
+			</li>
+
+			<li class="events-group">
+				<div class="top-info"><span>Thursday</span></div>
+
+				<ul>
+					<li class="single-event" data-start="09:30" data-end="10:30" data-content="event-abs-circuit" data-event="event-1">
+						<a href="#0">
+							<em class="event-name">Abs Circuit</em>
+						</a>
+					</li>
+
+					<li class="single-event" data-start="12:00" data-end="13:45" data-content="event-restorative-yoga" data-event="event-4">
+						<a href="#0">
+							<em class="event-name">Restorative Yoga</em>
+						</a>
+					</li>
+
+					<li class="single-event" data-start="15:30" data-end="16:30" data-content="event-abs-circuit" data-event="event-1">
+						<a href="#0">
+							<em class="event-name">Abs Circuit</em>
+						</a>
+					</li>
+
+					<li class="single-event" data-start="17:00" data-end="18:30"  data-content="event-rowing-workout" data-event="event-2">
+						<a href="#0">
+							<em class="event-name">Rowing Workout</em>
+						</a>
+					</li>
+				</ul>
+			</li>
+
+			<li class="events-group">
+				<div class="top-info"><span>Friday</span></div>
+
+				<ul>
+					<li class="single-event" data-start="10:00" data-end="11:00"  data-content="event-rowing-workout" data-event="event-2">
+						<a href="#0">
+							<em class="event-name">Rowing Workout</em>
+						</a>
+					</li>
+
+					<li class="single-event" data-start="12:30" data-end="14:00" data-content="event-abs-circuit" data-event="event-1">
+						<a href="#0">
+							<em class="event-name">Abs Circuit</em>
+						</a>
+					</li>
+
+					<li class="single-event" data-start="15:45" data-end="16:45"  data-content="event-yoga-1" data-event="event-3">
+						<a href="#0">
+							<em class="event-name">Yoga Level 1</em>
+						</a>
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+
+	<div class="event-modal">
+		<header class="header">
+			<div class="content">
+				<span class="event-date"></span>
+				<h3 class="event-name"></h3>
+			</div>
+
+			<div class="header-bg"></div>
+		</header>
+
+		<div class="body">
+			<div class="event-info"></div>
+			<div class="body-bg"></div>
+		</div>
+
+		<a href="#0" class="close">Close</a>
+	</div>
+
+	<div class="cover-layer"></div>
+</div> <!-- .cd-schedule -->
+
+        </div>
+
+    </section>
+    
+
+    <!--Carousel Wrapper-->
+<div class="container my-4">
+  <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+
+      <!--First slide-->
+      <div class="carousel-item active">
+
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-4 pt-5 d-flex justify-content-center">
+            <img class="sponsor-1" src="images/sponsor-1.png" alt="Tuborg sponsor">
+          </div>
+            
+
+          <div class="col-md-4 pt-5 clearfix d-none d-md-flex justify-content-center">
+            <img class="sponsor-1" src="images/sponsor-6.png" alt="Tuborg sponsor">
+          </div>
+
+          <div class="w-100 d-flex justify-content-center"></div>
+
+          <div class="col-md-4 pt-5 pb-4 clearfix d-none d-md-flex justify-content-center">
+            <img class="sponsor-1 w-50" src="images/sponsor-5.png" alt="Tuborg sponsor">
+          </div>
+          <div class="col-md-4 pt-5 pb-4 clearfix d-none d-md-flex justify-content-center">
+            <img class="sponsor-1 w-50" src="images/sponsor-7.png" alt="Tuborg sponsor">
+          </div>
+        </div>
+
+      </div>
+
+      <!--Second slide-->
+      <div class="carousel-item">
+
+          <div class="row d-flex justify-content-center">
+            <div class="col-md-4 py-3 d-flex justify-content-center">
+              <img class="sponsor-1" src="images/sponsor-2.jpeg" alt="Tuborg sponsor">
+            </div>
+              
+
+            <div class="col-md-4 py-3 clearfix d-none d-md-flex justify-content-center">
+              <img class="sponsor-1 w-25" src="images/sponsor-8.png" alt="Tuborg sponsor">
+            </div>
+
+            <div class="w-100 d-flex justify-content-center"></div>
+
+            <div class="col-md-4 pt-3 pb-3 clearfix d-none d-md-flex justify-content-center">
+              <img class="sponsor-1" src="images/sponsor-3.png" alt="Tuborg sponsor">
+            </div>
+            <div class="col-md-4 pt-3 pb-3 clearfix d-none d-md-flex justify-content-center">
+              <img class="sponsor-1" src="images/sponsor-4.png" alt="Tuborg sponsor">
+            </div>
+          </div>
+
+        </div>
+
+    
+    <!--Control btns-->
+    <a class="carousel-control-prev" href="#multi-item-example" role="button" data-slide="prev">
+        <i class="fas fa-chevron-left fa-2x text-dark"></i>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#multi-item-example" role="button" data-slide="next">
+        <i class="fas fa-chevron-right fa-2x text-dark"></i>
+        <span class="sr-only">Next</span>
+      </a>
+  </div>
+</div>
+</div>
+        
+        
+    
+        <!-- Footer -->
+        <footer class="bg-dark py-4">
+          <div class="container">
+            <div class="row">
+              <a href="contact.html" class="col text-white">Press</a>
+              <div class="col">
+                  <a href="https://www.facebook.com/48TimerFestival/"><i class="fab fa-facebook-square text-white"></i></a>
+                  <a href="https://www.instagram.com/48timerfestival/?hl=da&fbclid=IwAR2cug7MoxcFH4XyqlugGBRjC9Tlrw7fA888k913D1cG6Y6SFbONqRXF-EM"><i class="fab fa-instagram text-white"></i></a>
+                  <a href="https://www.youtube.com/channel/UC_ozDAK7XgmRiloIEaZ25NA?fbclid=IwAR08Y7AInWqRenIH1boX9NrejNX0R43_4IXadhugP8rUMMWsTixNJBvHugY"><i class="fab fa-youtube text-white"></i></a>
+              </div>
+              <div class="w-100"></div>
+              <a href="joinus.html" class="col text-white">Join us</a>
+              <a href="#" class="col text-white">Newsletter</a>
+            </div>
+          </div>
+      </footer>
+    
+    <script src="main.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+</body>
+</html>

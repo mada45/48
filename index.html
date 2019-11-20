@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
 <head>
 
     <meta charset="UTF-8">
@@ -15,50 +15,55 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>48timer</title>
+    <title>48 Timer</title>
 
 </head>
 
 <body>
-
     <header>
-
             <nav class="navbar nav-bg-scroll-off nav-bg-change navbar-toggleable-md navbar-light fixed-top" id="commRollover">
-                    <a class="navbar-brand" href="index.html"><img src="images/white-logo.png" data-swap='images/red-logo.png' 
+                    <a class="navbar-brand ml-3 my-2" href="index.html"><img src="images/white-logo.png" data-swap='images/red-logo.png' 
                       data-src='images/white-logo.png' alt="Logo" style="height: 2.5em;"></a>
-                    <div class="row mr-auto">
+                    <div class="row mr-auto mt-2">
                       <p class="font-weight-bold navText text-white col">May 15 - 17</p>
                       <div class="w-100"></div>
-                      <p class="font-weight-bold navText text-white col">Copenhagen, Norrebro</p>
+                      <p class="font-weight-bold navText text-white col">København, Nørrebro</p>
                     </div>
-                    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="icon-bar nav-span-change middle-bar bg-white"></span>
+
+                    <div class="d-md-flex d-none justify-content-center align-items-center mt-2">
+                        <a href="https://www.facebook.com/48TimerFestival/"><i class="fab fa-facebook-square fa-lg mr-2 text-white ml-auto"></i></a>
+                        <a href="https://www.instagram.com/48timerfestival/?hl=da&fbclid=IwAR2cug7MoxcFH4XyqlugGBRjC9Tlrw7fA888k913D1cG6Y6SFbONqRXF-EM"><i class="fab fa-instagram fa-lg mr-2 text-white ml-auto"></i></a>
+                        <a href="https://www.youtube.com/channel/UC_ozDAK7XgmRiloIEaZ25NA?fbclid=IwAR08Y7AInWqRenIH1boX9NrejNX0R43_4IXadhugP8rUMMWsTixNJBvHugY"><i class="fab fa-youtube fa-lg mr-4 text-white ml-auto"></i></a>
+                    </div>
+
+                    <button class="navbar-toggler collapsed mr-2" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="icon-bar nav-span-change top-bar bg-white"></span>
+                      <span class="icon-bar nav-span-change middle-bar bg-white"></span>
                       <span class="icon-bar nav-span-change bottom-bar bg-white"></span>
                     </button>
                     
                     <div class="collapse navbar-collapse bg-white" id="navbarNav">
-                        <ul class="container navbar-nav font-weight-bold">
-                            <li class="nav-item ml-auto">
-                                <a class="nav-link active text-primary" href="program.html">Program<span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item ml-auto text-primary">
-                                <a class="nav-link" href="joinus.html">Join us</a>
-                            </li>
-                            <li class="nav-item ml-auto text-primary">
-                                <a class="nav-link" href="gallery.html">Gallery</a>
-                            </li>
-                            <li class="nav-item ml-auto text-primary">
-                                <a class="nav-link" href="about.html">About us</a>
-                            </li>
-                            <li class="nav-item ml-auto text-primary">
-                                <a class="nav-link" href="#">Contact</a>
-                            </li>
+                        <ul class="mr-4 navbar-nav font-weight-bold">
+                          <li class="nav-item ml-auto">
+                            <a class="nav-link active text-primary" href="program.html">Program<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item ml-auto">
+                            <a class="nav-link text-primary" href="joinus.html">Kom med os</a>
+                        </li>
+                        <li class="nav-item ml-auto">
+                            <a class="nav-link text-primary" href="gallery.html">Gallery</a>
+                        </li>
+                        <li class="nav-item ml-auto">
+                            <a class="nav-link text-primary" href="about.html">Om os</a>
+                        </li>
+                        <li class="nav-item ml-auto">
+                            <a class="nav-link text-primary" href="contact.html">Kontakt</a>
+                        </li>
 
-                            <li class=" nav-item ml-auto">
-                              <a href=""><i class="fab fa-facebook-square text-primary ml-auto"></i></a>
-                              <a href=""><i class="fab fa-instagram text-primary ml-auto"></i></a>
-                              <a href=""><i class="fab fa-youtube text-primary ml-auto"></i></a>
+                            <li class="nav-item ml-auto d-md-none">
+                              <a href="https://www.facebook.com/48TimerFestival/"><i class="fab fa-facebook-square text-primary ml-auto"></i></a>
+                              <a href="https://www.instagram.com/48timerfestival/?hl=da&fbclid=IwAR2cug7MoxcFH4XyqlugGBRjC9Tlrw7fA888k913D1cG6Y6SFbONqRXF-EM"><i class="fab fa-instagram text-primary ml-auto"></i></a>
+                              <a href="https://www.youtube.com/channel/UC_ozDAK7XgmRiloIEaZ25NA?fbclid=IwAR08Y7AInWqRenIH1boX9NrejNX0R43_4IXadhugP8rUMMWsTixNJBvHugY"><i class="fab fa-youtube text-primary ml-auto"></i></a>
                       </li>
 
                       <li class="nav-item ml-auto">
@@ -79,68 +84,96 @@
                         </ul>
                     </div>
                 </nav>
-        
     </header>
 
     <!-- Background image -->
-    <div class="background-main">
+    <div class="background-main mb-5">
             <!--Main Image with Text-->
         <div class="jumbotron rounded-0 py-5 d-flex justify-content-center align-items-center">
             <h3 class="text-white font-weight-bold">HELE NØRREBRO KULTURFESTIVAL</h3>
         </div> 
     </div>
 
-    <!-- Jumbotron -->
-    <section class="container">
-            <div class="program jumbotron rounded-0 d-flex justify-content-between mb-3">
-                    <h3 class="text-white font-weight-bold">Program</h3>
-                    <i class="fas fa-chevron-right fa-2x text-white"></i>
-            </div>
-
-            <div class="volunteer jumbotron rounded-0 d-flex justify-content-between mb-3">
-                    <h3 class="text-white font-weight-bold">Volunteer</h3>
-                    <i class="fas fa-chevron-right fa-2x text-white"></i>
-            </div>
-
-            <div class="actor jumbotron rounded-0 d-flex justify-content-between mb-3">
-                    <h3 class="text-white font-weight-bold">Actor</h3>
-                    <i class="fas fa-chevron-right fa-2x text-white"></i>
-            </div>
+    <!-- Sarah Effect -->
+    <section class="container px-0 homepage">
+      <div class="content">
+          <div class="row">
+            <div class="col-md-6">
+            <figure class="effect-sarah border border-dark w-100">
+              <figcaption>
+                <div>
+                  <h3 class="font-weight-bold"> <span> Program </span><i class="fas fa-chevron-right mt-1 float-right fa-1x text-white"></i></h3> 
+                
+                  <p>This is some text placeholder. Write something short about the programs.</p>
+                </div>
+                <a href="program.html">View more?</a>
+              </figcaption>			
+            </figure>
+          </div>
+        
+        <div class="col-md-6 d-flex flex-column justify-content-between">
+            <figure class="effect-sarah border border-dark w-100 double-box">
+             
+              <figcaption>
+                <div>
+                  <h3 class="font-weight-bold"><span>Volunteer</span><span><i class="fas fa-chevron-right float-right mt-1 fa-1x text-white"></i></span></h3> 
+                  
+                </div>
+                <a href="program.html">View more?</a>
+              </figcaption>			
+            </figure>
+          
+        
+            <figure class="effect-sarah border border-dark w-100 double-box">
+              
+              <figcaption>
+                <div>
+                  <h3 class="font-weight-bold"><span>Aktor</span><span><i class="fas fa-chevron-right float-right mt-1 fa-1x text-white"></i></span></h3> 
+                  
+                </div>
+                <a href="program.html">View more</a>
+              </figcaption>			
+            </figure>
+          </div>
+        
+      </div>
+        </div>
+      </div>
     </section>
 
     <!-- Timer -->
 
-      <div class="container my-5">
+      <div class="container my-5 py-5">
 
         <div class="timer d-flex justify-content-center">
           <div class="col w-25 days-container">
             <div class="timer-items d-flex justify-content-center">
-              <div class="d-flex justify-content-center d-md-display-2" id="days"></div>
+              <div class="d-flex justify-content-center display-2" id="days"></div>
             </div>
-            <p class="display-5 d-flex justify-content-center mb-0">days</p>
+            <p class="d-flex justify-content-center mb-0">days</p>
           </div>
 
           <div class="col w-25 hours-container">
             <div class="timer-items d-flex justify-content-center">
-              <div class="d-flex justify-content-center d-md-display-2" id="hours"></div>
+              <div class="d-flex justify-content-center display-2" id="hours"></div>
             </div>
-            <p class="display-5 d-flex justify-content-center mb-0">hours</p>
+            <p class="d-flex justify-content-center mb-0">hours</p>
           </div>
 
           <div class="col w-25 minutes-container">
             <div class="timer-items d-flex justify-content-center">
-              <div class="d-flex justify-content-center d-md-display-2" id="minutes"></div>
+              <div class="d-flex justify-content-center display-2" id="minutes"></div>
             </div>
-            <p class="display-5 d-flex justify-content-center mb-0">minutes</p>
+            <p class="d-flex justify-content-center mb-0">minutes</p>
           </div>
           <div class="d-flex flex-column align-items-center">
         </div>
 
           <div class="col w-25 seconds-container">
             <div class="timer-items d-flex justify-content-center">
-                <div class="d-flex justify-content-center d-md-display-2" id="seconds"></div>
+                <div class="d-flex justify-content-center display-2" id="seconds"></div>
               </div>
-            <p class="display-5 d-flex justify-content-center mb-0">seconds</p>
+            <p class="d-flex justify-content-center mb-0">seconds</p>
           </div>
         </div>
       </div>
@@ -156,22 +189,22 @@
                 <div class="carousel-item active">
         
                   <div class="row d-flex justify-content-center">
-                    <div class="col-md-4 d-flex justify-content-center">
+                    <div class="col-md-4 pt-5 d-flex justify-content-center">
                       <img class="sponsor-1" src="images/sponsor-1.png" alt="Tuborg sponsor">
                     </div>
                       
         
-                    <div class="sponsor-2 col-md-4 clearfix d-none d-md-flex justify-content-center">
-                      <img class="sponsor-1" src="images/sponsor-1.png" alt="Tuborg sponsor">
+                    <div class="col-md-4 pt-5 clearfix d-none d-md-flex justify-content-center">
+                      <img class="sponsor-1" src="images/sponsor-6.png" alt="Tuborg sponsor">
                     </div>
     
                     <div class="w-100 d-flex justify-content-center"></div>
         
-                    <div class="sponsor-3 col-md-4 clearfix d-none d-md-flex justify-content-center">
-                      <img class="sponsor-1" src="images/sponsor-1.png" alt="Tuborg sponsor">
+                    <div class="col-md-4 pt-5 pb-4 clearfix d-none d-md-flex justify-content-center">
+                      <img class="sponsor-1 w-50" src="images/sponsor-5.png" alt="Tuborg sponsor">
                     </div>
-                    <div class="sponsor-4 col-md-4 clearfix d-none d-md-flex justify-content-center">
-                      <img class="sponsor-1" src="images/sponsor-1.png" alt="Tuborg sponsor">
+                    <div class="col-md-4 pt-5 pb-4 clearfix d-none d-md-flex justify-content-center">
+                      <img class="sponsor-1 w-50" src="images/sponsor-7.png" alt="Tuborg sponsor">
                     </div>
                   </div>
         
@@ -181,51 +214,27 @@
                 <div class="carousel-item">
         
                     <div class="row d-flex justify-content-center">
-                      <div class="col-md-4 d-flex justify-content-center">
-                        <img class="sponsor-1" src="images/sponsor-1.png" alt="Tuborg sponsor">
+                      <div class="col-md-4 py-3 d-flex justify-content-center">
+                        <img class="sponsor-1" src="images/sponsor-2.jpeg" alt="Tuborg sponsor">
                       </div>
                         
           
-                      <div class="sponsor-2 col-md-4 clearfix d-none d-md-flex justify-content-center">
-                        <img class="sponsor-1" src="images/sponsor-1.png" alt="Tuborg sponsor">
+                      <div class="col-md-4 py-3 clearfix d-none d-md-flex justify-content-center">
+                        <img class="sponsor-1 w-25" src="images/sponsor-8.png" alt="Tuborg sponsor">
                       </div>
       
                       <div class="w-100 d-flex justify-content-center"></div>
           
-                      <div class="sponsor-3 col-md-4 clearfix d-none d-md-flex justify-content-center">
-                        <img class="sponsor-1" src="images/sponsor-1.png" alt="Tuborg sponsor">
+                      <div class="col-md-4 pt-3 pb-3 clearfix d-none d-md-flex justify-content-center">
+                        <img class="sponsor-1" src="images/sponsor-3.png" alt="Tuborg sponsor">
                       </div>
-                      <div class="sponsor-4 col-md-4 clearfix d-none d-md-flex justify-content-center">
-                        <img class="sponsor-1" src="images/sponsor-1.png" alt="Tuborg sponsor">
+                      <div class="col-md-4 pt-3 pb-3 clearfix d-none d-md-flex justify-content-center">
+                        <img class="sponsor-1" src="images/sponsor-4.png" alt="Tuborg sponsor">
                       </div>
                     </div>
           
                   </div>
         
-                <!--Third slide-->
-                <div class="carousel-item">
-        
-                    <div class="row d-flex justify-content-center">
-                      <div class="col-md-4 d-flex justify-content-center">
-                        <img class="sponsor-1" src="images/sponsor-1.png" alt="Tuborg sponsor">
-                      </div>
-                        
-          
-                      <div class="sponsor-2 col-md-4 clearfix d-none d-md-flex justify-content-center">
-                        <img class="sponsor-1" src="images/sponsor-1.png" alt="Tuborg sponsor">
-                      </div>
-      
-                      <div class="w-100 d-flex justify-content-center"></div>
-          
-                      <div class="sponsor-3 col-md-4 clearfix d-none d-md-flex justify-content-center">
-                        <img class="sponsor-1" src="images/sponsor-1.png" alt="Tuborg sponsor">
-                      </div>
-                      <div class="sponsor-4 col-md-4 clearfix d-none d-md-flex justify-content-center">
-                        <img class="sponsor-1" src="images/sponsor-1.png" alt="Tuborg sponsor">
-                      </div>
-                    </div>
-          
-                  </div>
               
               <!--Control btns-->
               <a class="carousel-control-prev" href="#multi-item-example" role="button" data-slide="prev">
@@ -244,20 +253,20 @@
     
         <!-- Footer -->
         <footer class="bg-dark py-4">
-            <div class="container">
-              <div class="row">
-                <a href="" class="col text-white">Press</a>
-                <div class="col">
-                    <a href=""><i class="fab fa-facebook-square text-white"></i></a>
-                    <a href=""><i class="fab fa-instagram text-white"></i></a>
-                    <a href=""><i class="fab fa-youtube text-white"></i></a>
-                </div>
-                <a href="" class="w-100"></a>
-                <a href="" class="col text-white">Join us</a>
-                <a href="" class="col text-white">Newsletter</a>
+          <div class="container">
+            <div class="row">
+              <a href="contact.html" class="col text-white">Press</a>
+              <div class="col">
+                  <a href="https://www.facebook.com/48TimerFestival/"><i class="fab fa-facebook-square text-white"></i></a>
+                  <a href="https://www.instagram.com/48timerfestival/?hl=da&fbclid=IwAR2cug7MoxcFH4XyqlugGBRjC9Tlrw7fA888k913D1cG6Y6SFbONqRXF-EM"><i class="fab fa-instagram text-white"></i></a>
+                  <a href="https://www.youtube.com/channel/UC_ozDAK7XgmRiloIEaZ25NA?fbclid=IwAR08Y7AInWqRenIH1boX9NrejNX0R43_4IXadhugP8rUMMWsTixNJBvHugY"><i class="fab fa-youtube text-white"></i></a>
               </div>
+              <div class="w-100"></div>
+              <a href="joinus.html" class="col text-white">Join us</a>
+              <a href="#" class="col text-white">Newsletter</a>
             </div>
-        </footer>
+          </div>
+      </footer>
     
     <script src="main.js"></script>
     
